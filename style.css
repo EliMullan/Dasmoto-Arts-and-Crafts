@@ -6,16 +6,30 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+header {
+    height: 150px;
+    background-image: url('pattern.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    text-align: center;    
+}
+
 h1 {    
     font-size: 100px;
     font-weight: bold;
-    color: whitesmoke;
+    color: whitesmoke;  
 }
 
 h3 {
   font-size: 32px;
   font-weight: bold;
   color: white
+}
+
+.price {
+    font-weight: bold;
+    color: blue;
 }
 
 .delimit-green {
